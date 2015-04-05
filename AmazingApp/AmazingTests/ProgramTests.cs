@@ -9,7 +9,7 @@ namespace AmazingTests
         [Test]
         public void Msg_IsHelloWorld()
         {
-            Assert.AreEqual("Hello Prod TeamCity", Program.Msg);
+            Assert.AreEqual("Hello Prod TeamCity!", Program.Msg);
         }
 
         [Test]
