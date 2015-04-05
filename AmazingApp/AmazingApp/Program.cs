@@ -8,6 +8,7 @@ namespace AmazingApp
 
         public static void Main(string[] args)
         {
+            // This will go in prod
             Console.WriteLine(Msg);
         }
     }
