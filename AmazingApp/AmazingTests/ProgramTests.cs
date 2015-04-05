@@ -17,5 +17,12 @@ namespace AmazingTests
         {
             Assert.Pass();
         }
-    }
+
+        [Test]
+        public void Fail()
+        {
+            Assert.Fail();
+        }
+
+}
 }
