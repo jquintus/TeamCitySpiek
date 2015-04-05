@@ -19,6 +19,7 @@ namespace AmazingTests
         }
 
         [Test]
+        [Ignore]
         public void Fail()
         {
             Assert.Fail();
